@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b074a9d5-0cde-4afe-a774-967d3601c517" name="Old Bob" url="http://ftp.oldbobgunpowderband.it">
+        <fileTransfer rootFolder="/www.oldbobgunpowderband.it" host="ftp.oldbobgunpowderband.it" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

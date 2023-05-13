@@ -1,0 +1,85 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+           <head>
+           <meta charset="utf-8">
+           <title></title>
+           <meta name="description" content="">
+                     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+                                                          <meta property="og:title" content="">
+                                                                                           <meta property="og:type" content="">
+                                                                                           <meta property="og:url" content="">
+                                                                                                         <meta property="og:image" content="">
+
+                                                                                                                            <link rel="manifest" href="site.webmanifest">
+                                                                                                                            <link rel="apple-touch-icon" href="icon.png">
+                                                                                                                                      <!-- Place favicon.ico in the root directory -->
+
+                                                                                                                                      <link rel="stylesheet" href="css/normalize.css">
+                                                                                                                                                                  <link rel="stylesheet" href="css/main.css">
+
+                                                                                                                                                                  <meta name="theme-color" content="#fafafa">
+                                                                                                                                                                                                   </head>
+
+                                                                                                                                                                                                   <body>
+                                                                                                                                                                                                   <div class="header-div">
+                                                                                                                                                                                                   <img src="img/logo-white.png" class="main-logo">
+                                                                                                                                                                                                                                       </div>
+                                                                                                                                                                                                                                       <div class="content-div">
+
+
+                                                                                                                                                                                                                                       <img src="img/oldbob-cover-side.png" class="album-item">
+<p>
+Old Bob Gunpowder - Gunpowder<br>
+Release: 2021-TBA
+</p>
+<br>
+Lyrics:
+<p class="lyrics">
+        <span class="song-title">NIENTE (NON ME NE FREGA NIENTE)</span><br>
+        Chiuso dentro una scatola, faccio evadere la mia fantasia<br>
+        Ma sono sbarre di plastica a non farmi uscire<br>
+        In verità non me ne frega niente<br>
+Ho paura a fuggire di qua<br>
+Questa gabbia me la sono cucita addosso<br>
+Penso di prendere e mai di dovere<br>
+Non credo in niente<br>
+<br>
+SENZA USCIRE, CONTINUAMENTE TENGO LE DISTANZE<br>
+DAI MIEI COMPAGNI DI PRIGIONE<br>
+LENTAMENTE, TROVO LA MIA DIREZIONE<br>
+          QUESTO SISTEMA È UNA LUNGA CATE TRA NOI<br>
+          <br>
+          Sono un borghese piccolo piccolo, nella mia scatola mi agito mi agito perché<br>
+          All’interno di quattro mura, sono invincibile<br>
+Cristo quanto cambierei<br>
+Questa prigione di plastica mi da l’impressione di poter scappare via<br>
+Ma ho paura che fuori di qua, ci sia un'altra scatola<br>
+<br>
+SENZA FINE, CONTINUAMENTE TENGO LE DISTANZE<br>
+DAI MIEI COMPAGNI DI PRIGIONE<br>
+LENTAMENTE, TROVO LA MIA DIREZIONE<br>
+QUESTO SISTEMA È UNA LUNGA CATENA TRA NOI<br>
+NON RIESCO PIÙ A SCAPPARE VIA<br>
+
+
+</p>
+
+</div>
+<div class="sticky-footer"></div>
+<div class="bottom-space"></div>
+<!-- Add your site or application content here -->
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+      </script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
