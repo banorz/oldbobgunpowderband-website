@@ -27,7 +27,7 @@ permalink: /album_oldbobgunpowder
 </script>
 <div class="album-div">
     <div class="album-header">
-        <img src="img/oldbob-cover-side.png">
+        <img src="img/oldbob-cover-side.jpg">
     <p>
         Old Bob Gunpowder - Gunpowder<br>
         <span style="font-size:12px">{% t global.text_gunpowder_released_in %}</span>

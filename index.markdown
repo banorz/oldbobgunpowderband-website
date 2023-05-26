@@ -4,7 +4,7 @@ title: Old Bob Gunpowder Band
 ---
 <div class="home-albums">
     <br>
-    <a href="album_oldbobgunpowder"><img src="img/oldbob-cover-side.png" class="album-item"></a>
+    <a href="album_oldbobgunpowder"><img src="img/oldbob-cover-side.jpg" class="album-item"></a>
 <br>
     <p>
         <div class="link-item"><a href="https://open.spotify.com/artist/7cNFuZ7IMqzLwDFqCKfKg8?si=dmPMsNVkScyp4xTcFck_jQ">
