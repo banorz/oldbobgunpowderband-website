@@ -33,7 +33,7 @@ title: Old Bob Gunpowder Band
 </div>
 <div class="contact-div">
     <h2>{% t global.section_contactus %}</h2>
-    <a href="mailto:{{site.email}}" style="color:#efeff0">mail@oldbobgunpowderband.it</a>
+    <a href="mailto:{{site.email}}" style="color:#efeff0">{{site.email}}</a>
 </div>
 
 <br>
