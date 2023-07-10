@@ -34,7 +34,7 @@ permalink: /album_oldbobgunpowder
       </p>
     </div>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2uY2sOjOIByAgIaffakf4b?utm_source=generator" style="max-width:720px;" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7lJswrik0GIioXy6WZaknA?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <div class="link-item"><a href="https://geo.music.apple.com/it/album/_/1623619818?app=music&at=1000lHKX&ct=oldbob_website&itscg=30200&itsct=lt_m&ls=1&mt=1">
 <!--Listen on--> <img class="small-img" src="img/home-icons/applemusic.png"> Apple Music</a></div>
 <div class="link-item"><a href="https://music.youtube.com/playlist?list=OLAK5uy_mS404VIWqQ0lCMSPeXEkwD8qpnwxHFCuU">
