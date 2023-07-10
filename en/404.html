@@ -1,0 +1,173 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.oldbobgunpowderband.it">
+
+    <meta property="og:image" content="https://www.oldbobgunpowderband.it/img/ogimage.png">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="icon"
+          type="image/png"
+          href="favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="alternate" hreflang="en"
+          href="https://www.oldbobgunpowderband.it/en/" />
+    <link rel="alternate" hreflang="it"
+          href="https://www.oldbobgunpowderband.it/" />
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta name="theme-color" content="#fafafa">
+    <script src="https://kit.fontawesome.com/35d27e2f88.js" crossOrigin="anonymous"></script>
+</head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5LB8V2YH4D"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        if (!navigator.share) {
+            document.getElementById("sharebutton").style.display = 'none';
+        }
+
+        window.addEventListener("click", handleClick, false);
+        for(let i = 0;i<soundsArray.length;i++){
+            let audio = new Audio("sounds/"+soundsArray[i]);
+            audio.volume = 0.2;
+            audioArray.push(audio)
+        }
+
+    })
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-5LB8V2YH4D');
+</script>
+
+
+<body id="body">
+<div class="header-div">
+    
+    <a href="/en"><img src="img/logo-white.png" class="main-logo"></a>
+    <div class="language-selector">
+        
+        <a href="/404.html" ><img src="img/flags/it.png">Italiano</a>
+    </div>
+        
+
+
+
+</div>
+<style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>404</h1>
+
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+</div>
+
+<div id="sticky-footer" class="sticky-footer" style="display:flex; justify-content: space-between; flex-direction: row; align-content: center;">
+    <span style="margin-left:8px;  display:flex;  align-content: center; margin-top:4px;">
+        <a href="#"><img src="img/logo-white.png" style="height:42px;"></a>
+                <img src="img/bullet.png" style="width:30px;height:30px;margin-left:16px;margin-right:16px">
+    </span>
+    <span style="margin-right:8px; display:flex;  align-content: center; margin-top:8px;">
+
+        <a href="mailto: oldbobgunpowderband.info@gmail.com" target="_blank"><img src="img/whitemail02.png"  style="width:35px;height:35px;margin-right:16px;"></a>
+        <a href="https://www.facebook.com/oldbobgunpowderband" target="_blank"><img src="img/whitefacebook.png" style="width:35px;height:35px;margin-right:4px;"></a>
+        <a href="https://www.instagram.com/oldbobgunpowderband/" target="_blank"><img src="img/whiteInstagram.png" style="width:35px;height:35px;margin-right:4px;"></a>
+        <a href="https://www.tiktok.com/@oldbobgunpowderband" target="_blank"><img src="img/whitetiktok.png" style="width:35px;height:35px;margin-right:16px;"></a>
+        <img src="img/sharethis-4-64.png" id="sharebutton" onclick="clickShare()" style="width:35px;height:35px;">
+    </span>
+
+</div>
+
+<!-- Add your site or application content here -->
+<script src="js/Queue.js"></script>
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    if(screen.orientation!=undefined){
+        screen.orientation.onchange = function(e) {
+            resetBulletHoles()
+        }
+    }
+
+
+    function resetBulletHoles(){
+        while(!bulletHolesQueue.isEmpty()){
+            bulletHolesQueue.dequeue().remove()
+        }
+    }
+    let bulletHolesQueue = new Queue()
+    let queueCount = 32
+    let soundsArray = [
+        'gun1.mp3',
+        'gun2.mp3',
+        'gun3.mp3'
+    ]
+    let audioArray = []
+    function handleClick(evt){
+        if(evt.target.id==='sticky-footer' || evt.target.closest('.sticky-footer')!=null){ return; }
+        if(bulletHolesQueue.getLength()>=queueCount){
+            var oldBulletHole = bulletHolesQueue.dequeue()
+            if(oldBulletHole!=null) oldBulletHole.remove()
+        }
+        var bulletHole = document.createElement('img')
+        bulletHole.src="img/bullet-black.png"
+        bulletHole.style.position='absolute'
+        bulletHole.style.top=(evt.layerY-13).toString()+'px'
+        bulletHole.style.left=(evt.layerX-13).toString()+'px'
+        bulletHole.style.width='26px'
+        bulletHole.style.height='26px'
+        let rotation = Math.floor(Math.random() * 360)
+        bulletHole.style.transform = 'rotate('+rotation+'deg)'
+        bulletHole.style.pointerEvents = 'none'
+        document.getElementById('body').appendChild(bulletHole);
+        bulletHolesQueue.enqueue(bulletHole)
+        let randomSound = Math.floor(Math.random()*3)
+        audioArray[randomSound].currentTime = 0
+        audioArray[randomSound].play()
+    }
+    async function clickShare() {
+        if (!navigator.share) return
+        const shareData = {
+            title: 'Old Bob',
+            text: 'Il vecchio Bob è seduto su un porticato. Si sentono solo i grilli, il cigolio della sedia e le plettrate sulla chitarra. Old Bob Gunpowder è una band di Roma che suona un mix di Power Blues, Stoner e Southern Rock cantato in Italiano.',
+            url: window.location.href
+        }
+        try {
+            await navigator.share(shareData)
+        } catch (err) {
+            alert('Error: ' + err)
+        }
+    }
+</script>
+</body>
+
+</html>
